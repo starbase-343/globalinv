@@ -1,0 +1,17 @@
+{
+  "logLevel": "INFO",
+  "db": {
+    "driver": "postgres",
+    "name": "marketmaker",
+    "host": "localhost",
+    "port": "5432",
+    "user": "postgres",
+    "password": "postgres",
+    "migrationDir": "./migrations"
+  },
+  "msgBroker": {
+    "brokers": [
+      "localhost:9092"
+    ]
+  }
+}
